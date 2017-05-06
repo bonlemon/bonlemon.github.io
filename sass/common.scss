@@ -1,0 +1,93 @@
+// Constants
+
+$pageMinWidth: 980px;
+$pageMaxWidth: 1330px;
+
+$textFontSize: 20px;
+$headerFontSize: 35px;
+
+$buttonColor: #2483b3; 
+
+/*****************/
+/* Блок страницы */
+/*****************/
+.b-page{
+    padding: 0;
+
+    font-family: 'Neucha', sans-serif;
+    color: #333;
+    font-size: $textFontSize;
+    line-height: 25px;
+
+    background-color: #fafafa;
+
+    &__line{
+        width: 100%;  
+        box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+    }
+
+    &__line-conteiner{
+        margin: 0 auto;
+        min-width: $pageMinWidth;
+        max-width: $pageMaxWidth;
+    }
+}
+
+
+
+.b-header{
+    margin: 0 0 37px 0;
+
+    color: #333;
+    font-size: $headerFontSize;
+    line-height: 40px;
+    letter-spacing: -1px;
+}
+
+/***************/
+/* Общие стили */
+/***************/
+
+.submit{
+    display: inline-block;
+    padding: 0px 50px;
+    border: solid 1px $buttonColor;
+    height: 38px;
+    
+    cursor: pointer;
+    line-height: 38px;
+    vertical-align: top;
+    transition: all 0.2s;
+    color: $buttonColor;
+    border-radius: 4px;
+}
+
+
+.b-button{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border: solid 1px $buttonColor;
+
+    font-size: 16px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    color: $buttonColor;
+    cursor: pointer;
+
+    &:hover {
+        background: $buttonColor;
+        color: #fff;
+    }
+}
+
+/* Clearfix block */
+.b-clearfix {  
+    zoom: 1.0;  
+
+    &:after {  
+        content: " ";  
+        display: table; 
+        clear: both; 
+    }  
+}
