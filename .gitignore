@@ -1,0 +1,21 @@
+### OSX ###
+.DS_Store
+
+### EDITORS ###
+
+# VisualStudio
+.vscode/*
+
+# SublimeText #
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+### PACKAGE MANAGERS ###
+
+# npm & yarn
+react/Timer/node_modules/
+
+# App
+react/Timer/public/
+react/Timer/coverage/

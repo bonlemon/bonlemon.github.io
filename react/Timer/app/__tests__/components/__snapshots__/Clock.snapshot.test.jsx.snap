@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Clock component renders the clock correctly renders correctly 1`] = `
+<div
+  className="clock"
+>
+  <span
+    className="clock-text"
+  >
+    01:03
+  </span>
+</div>
+`;
